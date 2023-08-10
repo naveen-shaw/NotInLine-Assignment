@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.header-form-container {
+  background: linear-gradient(
+    90deg,
+    rgb(158, 215, 253) 60%,
+    rgb(255, 255, 255)
+  );
+  width: 50vw;
+  padding-top: 3rem;
+}
+.img-container {
+  width: 50vw;
+  padding-top: 3rem;
+}
+
+.header-form {
+  padding: 2.5rem;
+  border-radius: 2rem;
+  background-color: white;
+  width: 28rem;
+  box-shadow: 2px 2px 6px 4px rgb(163, 206, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: auto;
+}
+
+.input-container {
+  width: 100%;
+}
+.header-form h4 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.input-container input {
+  background-color: rgb(228, 228, 228);
+  border: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: small;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
+.tc {
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+
+.tc p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.tc span {
+  font-weight: 700;
+}
+
+.proceed {
+  border: none;
+  background-color: #138ed1;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  width: 60%;
+}
+.offer {
+  column-rule: white;
+  border-radius: 30px;
+  width: 70%;
+
+  color: white;
+  display: flex;
+  align-items: center;
+
+  width: 70%;
+  margin-right: 6%;
+
+  background-color: #00a6ff;
+  border: 2px solid white;
+}
+.offer-text {
+  padding: 15px;
+}
+.main-offer {
+  background-color: #00486c;
+  padding: 15px;
+  padding-left: 15px;
+  border-radius: 30px;
+  border-right: 2px solid white;
+}
+.offer-container {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 25px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+.s {
+  margin-left: 6px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.sx {
+  font-weight: 600;
+}
+.design {
+  background-color: white;
+  width: 57vw;
+  transform: rotate(6deg);
+  height: 125px;
+  position: relative;
+  bottom: 4rem;
+  right: 20px;
+}
